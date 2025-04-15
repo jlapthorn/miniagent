@@ -21,7 +21,7 @@ The current scripts are limited to the SNO topology only.
 1. Launch the setup script specifying the required release version and the the pull secret file.
 
 ``` bash
-$ ./sno-setup.sh quay.io/openshift-release-dev/ocp-release:4.14.3-x86_64 ~/config/my-pull-secret
+$ ./sno-pxe.sh quay.io/openshift-release-dev/ocp-release:4.14.3-x86_64 ~/config/my-pull-secret
 ```
 
 > **_NOTE:_**  The pull secret file parameter is not required if the `REGISTRY_AUTH_FILE` environment variable is already set
